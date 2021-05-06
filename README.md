@@ -1,4 +1,4 @@
-#Pokédex
+# Pokédex
 made with javascript, html, css
 
 _in process_
