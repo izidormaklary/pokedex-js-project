@@ -4,12 +4,15 @@ made with javascript, html, css
 _in process_
 
 ---
-### should contain:
+### contains:
 * display
     * The ID-number
     * An image (sprite)
-    * _At least_ 4 "moves"
-    * The previous evolution, _only if it exists_, along with their name and image
+    * all the moves
+    * The previous evolution, _only if it exists_, along with their name 
     
 * navigation buttons
+
+ https://izidormaklary.github.io/pokedex-js-project/
+
 ---
