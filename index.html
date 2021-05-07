@@ -1,0 +1,58 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pokedex</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+    <h1 class="header">
+        Pokédex
+    </h1>
+
+        <div class="searchCont">
+
+                <input type="text" name="name or id" id="input">
+
+            <button type="button" id="run" class="">
+                get poke
+            </button>
+        </div>
+    <div class="wrapper">
+
+        <div class="dexCont" >
+            <h2 id="nameNid" >
+                name id
+            </h2>
+            <div class="showContent" id="dispImage">
+                1
+            </div>
+            <div class="showContent" id="dispEvo" style="display: none">
+                2
+            </div>
+            <div class="showContent" id="dispMoves" style="display: none">
+                3
+            </div>
+
+        </div>
+        <div class="control" >
+            <div>
+                <button type="button" class="show" data-target="dispMoves" id="moves" >moves</button>
+            </div>
+            <div>
+                <button type="button" class="show" data-target="dispImage" id="image" >image</button>
+            </div>
+            <div>
+                <button type="button" class="show" data-target="dispEvo" id="evolutions" >evolution</button>
+            </div>
+        </div>
+
+    </div>
+
+
+<script src="./script.js"></script>
+</body>
+</html>
